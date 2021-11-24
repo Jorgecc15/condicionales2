@@ -1,23 +1,23 @@
 let imc = Number (prompt("ingrese su peso en Kg"))
 if(imc< 18.5)
-    {alert("usted esta bajo de peso")
+    {console.log("usted esta bajo de peso")
 }else{
     if(imc <25)
-    {alert("su peso es normal")
+    {console.log("su peso es normal")
 }else{
      if(imc < 30)
-    {alert("preobesidad")
+    {console.log("preobesidad")
  }else{
      if(imc ==30)
-    {alert("obesidad")
+    {console.log("obesidad")
  }else{
      if(imc<35 )
-     {alert("obesidad de clase 1")
+     {console.log("obesidad de clase 1")
  }else{
      if(imc < 40)
-     {alert("obesidad de clase 2")
+     {console.log("obesidad de clase 2")
  }else{
-     alert("obesidad de clase 3")
+     console.log("obesidad de clase 3")
  }
  }
  }
