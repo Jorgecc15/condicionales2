@@ -1,4 +1,3 @@
-let h1informacion=document.querySelector("#parrafopeso")
 let imc = Number (prompt("ingrese su peso en Kg"))
 if(imc< 18.5)
     {alert("usted esta bajo de peso")
