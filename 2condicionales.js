@@ -1,4 +1,6 @@
-let imc = Number (prompt("ingrese su peso en Kg"))
+let peso = Number (prompt("ingrese su peso en Kg"))
+let altura = Number (prompt("ingrese su altura en m"))
+let imc = peso/(altura*altura)
 if(imc< 18.5)
     { respuesta="usted esta bajo de peso"
 }else{
